@@ -19,12 +19,15 @@ func shiftMatrix(numArray [][]int, n int) {
         }
         
     }
+}
  
 
 func main() {
     var rows,cols int
     rows = 5 //n
     cols = 4 //m
+    
+    var numArray[5][4]
     
     // Заполняем массив значениями, введенными пользователем
     fmt.Println("Введите элементы матрицы:")
